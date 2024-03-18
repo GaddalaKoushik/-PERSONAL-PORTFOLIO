@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89bd391bc5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm<br> <span>GADDALA KOUSHIK</span><br> an IT student <br>from BVRITN</h1>
+            </div>
+        </div>
+    </div>
+<!----------------about-------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/WhatsApp Image 2024-02-21 at 17.20.37_7b9f645a.jpg" alt="profile">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Welcome to my portfolio! I am GADDALA KOUSHIK, a final year student pursuing a Bachelor's degree in Information Technology at BV Raju Institute of Technology. With a passion for technology and a drive to excel in my field, I have acquired proficiency in various aspects of computer science, specializing in Python ,web development, Data analyst.</p>
+            <div class="tab-titles">
+                <p><div class="tab-links active-link" onclick="opentab('skills')">Skills</div></p>
+                <p><div class="tab-links" onclick="opentab('experience')">Experience</div></p>
+                <p><div class="tab-links"onclick="opentab('education')">Education</div></p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Data analyst</span><br>Designed a Cement manufacturing automation using different visualizations.</li>
+                    <li><span>Web Development</span><br>Developed web pages of different tasks</li>
+                    <li><span>Software Development</span><br>Expertise in Languages like java , python for developing software applications.</li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="education">
+                <ul>
+                    <li><span>2020-current</span><br>BVRIT(IT) - B.TECH </li>
+                    <li><span>2018-2020</span><br>NARAYANA JUNIOR COLLEGE(MPC) - INTER</li>
+                    <li><span>2018</span><br>SPR SCHOOL OF EXCELLENCE - SSC</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span> June 2023- January 2024</span><br>Java Tpoint</li>
+                    <li><span>May 2023 - December 2023</span><br>360Digitmg</li>
+                    <li><span>September 2023 - November 2023</span><br>CodSoft</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----services-->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Data Science Trainee</h2>
+                <p>Dedicated and enthusiastic DataScience Trainee with hands-on experience at 360DigiTMG,I specialize in visualization of different datasets that enable  to learn from data and make Business insights. With expertise in areas such as Python, Mysql , PowerBI and visualization tools, I strive to innovate solutions that drive automation, efficiency, and insights across various industries.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Developer</h2>
+                <p>As a web developer, I excel in crafting immersive digital experiences through innovative design and efficient coding practices. With expertise in front-end and back-end technologies such as HTML, CSS, JavaScript, and Python, I bring websites to life with intuitive interfaces and seamless functionality, catering to diverse user needs and preferences.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>software Developer</h2>
+                <p>As a  software developer, I specialize in leveraging the power and versatility of Python to build robust, scalable, and efficient software solutions. With a deep understanding of java programming, frameworks, and best practices, I excel in developing applications across various domains, from web and desktop to data analysis and machine learning, driving innovation and problem-solving through code.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/image1.jpg">
+                <div class="layer">
+                    <h3>Cement manufacturing Automation </h3>
+                    <p>I have developed an automated real-time quality monitoring system for a top cement manufacturer to solve delays in quality checks.This innovation significantly reduced intervals between checks, achieving a 50% efficiency boost.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image 2.jpg">
+                <div class="layer">
+                    <h3>Personal Portfolio design</h3>
+                    <p>As a specialized web developer, I create dynamic websites for diverse needs, from e-commerce to corporate portfolios. With user-friendly interfaces, responsive designs, and optimized performance, I enhance online presence effectively."</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/image 3.png">
+                <div class="layer">
+                    <h3>Railway reservation managment system </h3>
+                    <p>I have created an efficient Railway Reservation Management System application using Java programming. This system simplifies the booking and management of Railway reservations,offering a user-friendly interface and essential features for smooth operation. Leveraging advanced algorithms, the application provides a seamless booking experience with optimal performance.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>gaddalakoushik@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twittercom/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gaddala-koushik-9938b3259/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> by GADDALA KOUSHIK</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tablink of tabcontents){
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+ </script>
+</body>
+ </html>
